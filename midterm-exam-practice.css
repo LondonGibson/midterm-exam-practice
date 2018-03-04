@@ -4,3 +4,6 @@ body{
 .container{
   background-color: #537D5D;
 }
+.left-column p{
+  margin: 0px;
+}
