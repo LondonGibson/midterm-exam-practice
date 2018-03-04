@@ -35,6 +35,9 @@ body{
   font-size: 10px;
   color: gray;
 }
+.right-column p:first-child{
+  margin-top: 0px;
+}
 h1{
   font-size: 35px;
   font-weight: lighter;
