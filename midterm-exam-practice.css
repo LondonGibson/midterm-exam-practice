@@ -1,80 +1,81 @@
 body{
-  background-color: #40744D;
-  font-family: Arial;
+  background-color: #40744D; /* NOTE: Changing page background color */
+  font-family: Arial; /* NOTE: Changing page font family to Arial */
 }
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; /* NOTE: Clearfix hack */
 }
 .container{
-  background-color: #C1EFC0;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 10px;
-  overflow: auto;
-  border: 8px dotted #850000;
+  background-color: #C1EFC0; /* NOTE: Changing the container background color, slightly lighter */
+  max-width: 900px; /* NOTE: The maximum width of the container box */
+  margin: 0 auto; /* NOTE: Centering the container box-sizing */
+  padding: 10px; /* NOTE: Spacing around the edge of container and its contents, even if its bigger*/
+  overflow: auto;  /* NOTE: Makes it so everything fits inside the container box */
+  border: 8px dotted #850000; /* NOTE: Added a Christmassy border around the container */
 }
 img{
-  width: 80%;
-  border: 10px double #FFFFFF;
-  display: block;
-  margin: auto;
+  width: 80%; /* NOTE: Making the images slightly less wide than the container */
+  border: 10px double #FFFFFF;  /* NOTE: Border around all of the images */
+  display: block; /* NOTE: This makes the image a block-style so you can center it */
+  margin: auto; /* NOTE: Centering the image */
 }
 .left-column p{
-  margin: 0px;
-  text-transform: uppercase;
+  margin: 0px;  /* NOTE: Gets rid of margin around the left-column paragraphs */
+  text-transform: uppercase; /* NOTE: Makes the byline uppercase */
 }
 .left-column p:first-child{
-  font-weight: bold;
-  font-size: 17px;
+  font-weight: bold; /* NOTE: Bolds the first like of the byline */
+  font-size: 17px;  /* NOTE: Adjusts font size of the first line of the byline */
 }
 .left-column p:nth-child(2){
-  font-style:italic;
+  font-style:italic; /* NOTE: Makes the second line of the byline italic */
 }
 .right-column p{
-  font-size: 15px;
-  letter-spacing: 1px;
-  font-family: Georgia;
+  font-size: 15px; /* NOTE: Makes the story size 15px */
+  letter-spacing: 1px;  /* NOTE: Makes the story font spacing slightly wider, for aesthetic effect */
+  font-family: Georgia; /* NOTE: Changes font family of story to serif */
 }
 .caption{
-  font-size: 10px;
-  color: gray;
-  margin-top: 20px;
-  font-style: italic;
-  margin-left: 10%;
+  font-size: 10px; /* NOTE: Makes all captions 10px */
+  color: gray; /* NOTE: Captions all gray */
+  margin-top: 20px; /* NOTE: Separates captions from image by an additional 10px */
+  font-style: italic;  /* NOTE: Italicizes all captions */
+  margin-left: 10%; /* NOTE: Makes all captions indented 10% to match the image edge */
+  width: 80%;/* NOTE: Makes all captions 80% width, to match the images */
 }
 .right-column .caption{
-  font-size: 10px;
-  color: gray;
-  width: 80%;
+  font-size: 10px; /* NOTE: making the caption 10px */
+  color: gray; /* NOTE: making the caption gray */
+  width: 80%; /* NOTE: making the width 80%, to match the images */
 }
 .right-column p:first-child{
-  margin-top: 0px;
+  margin-top: 0px; /* NOTE: Gets rid of the top margin at top of story, so its in line with the byline */
 }
 .right-column p:nth-child(12){
-  font-weight: bold;
+  font-weight: bold; /* NOTE: Making the subhead bold */
 }
 h1{
-  font-size: 35px;
-  font-weight: lighter;
-  border-bottom: 1px solid #000000;
-  padding-bottom: 10px;
+  font-size: 35px; /* NOTE: H1 size change to 35px */
+  font-weight: lighter; /* NOTE: making font slightly lighter */
+  border-bottom: 1px solid #000000; /* NOTE: Bottom border on the h1 block, like an underline */
+  padding-bottom: 10px; /* NOTE: More space between h1 text and bottom border */
 }
 .right-column img{
-  width: 80%;
-  border: 5px double #FFFFFF;
-  display: block;
+  width: 80%; /* NOTE: Making image 80% width */
+  border: 5px double #FFFFFF; /* NOTE: Adding white border */
+  display: block; /* NOTE: Making block display, so it can be centered */
 }
 a{
-  color: #850000;
+  color: #850000; /* NOTE: Changing link color to match container border */
 }
-@media(min-width: 500px) {
+@media(min-width: 500px) { /* NOTE: Responsive webpage, will change when reaches a certain size */
   .left-column{
-    width: 25%;
-    float: left;
+    width: 25%; /* NOTE: How the page should be when bigger then 500px */
+    float: left; /* NOTE: Keeps it to the left so the other ones can file in, makes it inline */
   }
   .right-column{
-    width: 75%;
-    float: left;
-    padding-left: 10px;
+    width: 75%; /* NOTE: How the page should be when bigger then 500px */
+    float: left;/* NOTE: Keeps it to the left so the other ones can file in, makes it inline */
+    padding-left: 10px; /* NOTE: Some space between the two columns */
   }
 }
