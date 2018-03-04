@@ -11,3 +11,6 @@ body{
   font-weight: bold;
   font-size: 17px;
 }
+.left-column p:nth-child(2){
+  font-style:italic;
+}
