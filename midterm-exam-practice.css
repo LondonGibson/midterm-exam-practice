@@ -25,6 +25,7 @@ body{
 }
 .right-column p{
   font-size: 15px;
+  letter-spacing: 1px;
 }
 .caption{
   font-size: 10px;
