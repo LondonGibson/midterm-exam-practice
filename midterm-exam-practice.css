@@ -8,6 +8,8 @@ body{
   background-color: #C1EFC0;
   max-width: 900px;
   margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
 }
 .left-column{
   width: 25%;
@@ -26,6 +28,7 @@ body{
 .right-column{
   width: 75%;
   float: left;
+  padding-left: 10px;
 }
 .right-column p{
   font-size: 15px;
