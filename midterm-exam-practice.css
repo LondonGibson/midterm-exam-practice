@@ -1,8 +1,8 @@
 body{
-  background-color: #102E0A;
+  background-color: #40744D;
 }
 .container{
-  background-color: #537D5D;
+  background-color: #C1EFC0;
 }
 .left-column p{
   margin: 0px;
@@ -16,4 +16,12 @@ body{
 }
 .right-column p{
   font-size: 15px;
+}
+.caption{
+  font-size: 10px;
+  color: gray;
+}
+.right-column .caption{
+  font-size: 10px;
+  color: gray;
 }
