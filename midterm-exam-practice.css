@@ -40,6 +40,9 @@ body{
 .right-column p:first-child{
   margin-top: 0px;
 }
+.right-column p:nth-child(12){
+  font-weight: bold;
+}
 h1{
   font-size: 35px;
   font-weight: lighter;
