@@ -17,6 +17,7 @@ img{
   width: 80%;
   border: 10px double #FFFFFF;
   display: block;
+  margin: auto;
 }
 .left-column p{
   margin: 0px;
