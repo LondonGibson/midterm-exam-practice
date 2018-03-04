@@ -51,6 +51,7 @@ h1{
 }
 img{
   width: 100%;
+  border: 5px double #FFFFFF;
 }
 @media(min-width: 500px) {
   .left-column{
