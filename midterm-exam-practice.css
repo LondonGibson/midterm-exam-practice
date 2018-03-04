@@ -1,8 +1,13 @@
 body{
   background-color: #40744D;
 }
+*{
+  box-sizing: border-box;
+}
 .container{
   background-color: #C1EFC0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .left-column p{
   margin: 0px;
