@@ -40,11 +40,12 @@ img{
   color: gray;
   margin-top: 20px;
   font-style: italic;
-  text-indent: 10%;
+  margin-left: 10%;
 }
 .right-column .caption{
   font-size: 10px;
   color: gray;
+  width: 80%;
 }
 .right-column p:first-child{
   margin-top: 0px;
