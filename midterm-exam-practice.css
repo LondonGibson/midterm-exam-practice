@@ -59,8 +59,9 @@ h1{
   padding-bottom: 10px;
 }
 .right-column img{
-  width: 100%;
+  width: 80%;
   border: 5px double #FFFFFF;
+  display: block;
 }
 a{
   color: #850000;
