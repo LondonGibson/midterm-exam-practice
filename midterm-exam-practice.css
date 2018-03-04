@@ -11,10 +11,6 @@ body{
   padding: 10px;
   overflow: auto;
 }
-.left-column{
-  width: 25%;
-  float: left;
-}
 .left-column p{
   margin: 0px;
 }
@@ -24,11 +20,6 @@ body{
 }
 .left-column p:nth-child(2){
   font-style:italic;
-}
-.right-column{
-  width: 75%;
-  float: left;
-  padding-left: 10px;
 }
 .right-column p{
   font-size: 15px;
@@ -44,4 +35,15 @@ body{
 }
 h1{
   font-size: 35px;
+}
+@media(min-width: 500px) {
+  .left-column{
+    width: 25%;
+    float: left;
+  }
+  .right-column{
+    width: 75%;
+    float: left;
+    padding-left: 10px;
+  }
 }
