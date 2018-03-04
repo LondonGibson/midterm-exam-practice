@@ -20,6 +20,7 @@ body{
 .caption{
   font-size: 10px;
   color: gray;
+  margin-top: 20px;
 }
 .right-column .caption{
   font-size: 10px;
